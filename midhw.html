@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./midhw.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="bar"></div>
+    </div>
+    <!-- 導覽列 -->
+    <nav>
+        <div class="nav-logo ">
+        </div>
+        <ul class="nav-links ">
+            <li><a class="aboutus-btn nav-color" href="#">關於我們</a></li>
+            <li><a class="food-btn nav-color" href="#">菜色介紹</a></li>
+            <li><a class="location-btn nav-color" href="#">服務據點</a></li>
+            <li>
+                <div>
+                    <a href="https://www.facebook.com/JiadianBrunch/"><svg class="nav-color" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                        </svg></a>
+                    <a href="https://www.instagram.com/jiadianbrunch/?fbclid=IwAR1oSsMqR1OHahijab9tZ-JRBxXMNq8ka1lBXHb7dgHIP1TJMlu9XVAuZFY"><svg class="nav-color" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                        </svg></a>
+                </div>
+
+            </li>
+
+        </ul>
+        <div class="nav-bar">
+            <div class="nav-bar-size">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+    </nav>
+    <!-- 標題  兩邊縮160px-->
+    <div class="title">
+        <div class="title-img">
+        </div>
+        <div class="container-myself">
+            <div class="title-wrap">
+                <h4>創意</h4>
+                <h4>專業</h4>
+                <h4>口碑</h4>
+                <h1>嘉點早午餐 JiadianBrunch</h1>
+                <h2>創意、專業、口碑</h2>
+                <h3>健康新鮮，手做餐點，在每天的早晨給予顧客最舒適的用餐體驗</h3>
+            </div>
+        </div>
+    </div>
+    <!-- 關於我們 -->
+    <div class="content-aboutus">
+        <div class="container-myself">
+            <div class="left-content-aboutus">
+                <div class="content-title">
+                    <div>
+                        <h1 class="h1title transformme">
+                            關於我們
+                        </h1>
+                    </div>
+                    <div>
+                        <h2 class="h2title transformme">
+                            一日之計在於晨。
+                        </h2>
+                    </div>
+                </div>
+                <div class="content-text">
+                    <p>
+                        對你我而言，每天總是忙於工作的我們，容易忽略對待自己的生活方式，就連吃早餐也許只是一種簡單便利的飲食方式。
+                    </p>
+                    <p>
+                        早餐是每天最重要的一餐且最新鮮的，一定要現點現做，除了要給消費者一個專屬於您的感覺外，也在消費者的心中建立起早餐是專屬為我現做的感覺。
+                    </p>
+                </div>
+            </div>
+            <div class="right-content-aboutus">
+                <div class="content-img-1 hideme">
+                    <img src="./img/imgs_0001_pexels-klaus-nielsen-6294359.jpg" alt="">
+                </div>
+                <div class="content-img-2 hideme">
+                    <img src="./img/imgs_0004_pexels-samarth-singhai-2293537.jpg" alt="">
+                </div>
+                <div class="content-img-3 hideme">
+                    <img src="./img/img_0006_pexels-pixabay-461382.jpg" alt="">
+                </div>
+            </div>
+            <div class="rwd-content-text">
+                <p>
+                    對你我而言，每天總是忙於工作的我們，容易忽略對待自己的生活方式，就連吃早餐也許只是一種簡單便利的飲食方式。
+                </p>
+                <p>
+                    早餐是每天最重要的一餐且最新鮮的，一定要現點現做，除了要給消費者一個專屬於您的感覺外，也在消費者的心中建立起早餐是專屬為 我現做的感覺。
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- 菜色介紹 -->
+    <div class="close-content-food">
+        <!-- 每日精選 -->
+        <div class="content-food-1">
+            <div class="container-myself">
+                <div class="left-content-food">
+                    <div class="content-title">
+                        <div>
+                            <h1 class="h1title transformme">
+                                菜色介紹
+                            </h1>
+                        </div>
+                        <div>
+                            <h2 class="h2title transformme">
+                                每日精選
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="content-text">
+                        <p>
+                            重磅厚牛堡
+                        </p>
+                        <p>
+                            放入四盎司的紐澳純牛肉，濃郁的邦果起士片、新鮮番茄和洋蔥生菜，打造出帶有正宗美國風味的漢堡。其中，祕製的經典醬是以美乃滋為基底，加入酸黃瓜、黃芥末與奶油提味，酸酸甜甜超開胃。
+                        </p>
+
+                    </div>
+                    <div class="open-img">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
+                            class="bi bi-plus-lg" viewBox="0 0 16 16">
+                            <path class="open-svg" fill-rule="evenodd"
+                                d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z" />
+                        </svg>
+                    </div>
+
+                </div>
+                <div class="right-content-food">
+                    <div class="content-img-2-2 hideme">
+                        <img src="./img/img_0007_pexels-engin-akyurt-2725744.jpg" alt="">
+                    </div>
+                    <div class="content-img-2-3 hideme">
+                        <img src="./img/imgs_0000_pexels-rajesh-tp-1633578.jpg" alt="">
+                    </div>
+                </div>
+                <div class="rwd-content-text">
+                    <p>
+                        重磅厚牛堡
+                    </p>
+                    <p>
+                        放入四盎司的紐澳純牛肉，濃郁的邦果起士片、新鮮番茄和洋蔥生菜，打造出帶有正宗美國風味的漢堡。其中，祕製的經典醬是以美乃滋為基底，加入酸黃瓜、黃芥末與奶油提味，酸酸甜甜超開胃。
+                    </p>
+                    <div class="open-img">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                            class="bi bi-plus-lg" viewBox="0 0 16 16">
+                            <path class="open-svg" fill-rule="evenodd"
+                                d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z" />
+                        </svg>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="read-more">
+            <!-- 義大利麵 -->
+            <div class="content-food-2">
+                <div class="container-myself">
+                    <div class="left-content-food">
+                        <div class="content-title">
+                            <div>
+                                <h1 class="h1title transformme">
+                                    義式餐點
+                                </h1>
+                            </div>
+                            <div>
+                                <h2 class="h2title transformme">
+                                    香氣四溢
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="content-text">
+                            <p>
+                                義大利麵
+                            <p>
+                                顛覆你的刻板印象！義大利麵不只有青、白、紅醬，還能以蔬菜、肉、起司等食材製作。
+                                用料變化多端的義大利麵醬汁。根據各種創意麵型、口感，量身打造專屬的醬汁，一種麵型搭配一種醬汁且絕不共醬！
+                            </p>
+                        </div>
+                    </div>
+                    <div class="right-content-food">
+                        <div class="content-img-3-2 hideme ">
+                            <img src="./img/imgs_0002_pexels-solodsha-8105124.jpg" alt="">
+                        </div>
+                        <div class="content-img-3-3 hideme">
+                            <img src="./img/imgs_0003_pexels-solodsha-7664088.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="rwd-content-text ">
+                        <p>
+                            義大利麵
+                        </p>
+                        <p>
+                            顛覆你的刻板印象！義大利麵不只有青、白、紅醬，還能以蔬菜、肉、起司等食材製作。用料變化多端的義大利麵醬汁，根據各種創意麵型、口感，量身打造專屬的醬汁，一種麵型搭配一種醬汁，絕不共醬
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- 菜單 -->
+            <div class="content-food-3">
+                <div class="container-myself">
+                    <div class="left-content-food">
+                        <div class="content-title">
+                            <div>
+                                <h1 class="h1title transformme">
+                                    菜單介紹
+                                </h1>
+                            </div>
+                            <div>
+                                <h2 class="h2title transformme">
+                                    細細品嘗
+                                </h2>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="index-content-img">
+                        <ul class=" train">
+                            <li>
+                                <img src="./img/243273810_316758926880901_591228233636215030_n.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="./img/243496346_316759080214219_7481221178971450493_n.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="./img/243273810_316758926880901_591228233636215030_n.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="./img/243496346_316759080214219_7481221178971450493_n.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="./img/243273810_316758926880901_591228233636215030_n.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="./img/243496346_316759080214219_7481221178971450493_n.jpg" alt="">
+                            </li>
+                        </ul>
+                        <div class="left-arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                                class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z" />
+                            </svg>
+
+                        </div>
+                        <div class="right-arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                                class="bi bi-chevron-compact-left" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M9.224 1.553a.5.5 0 0 1 .223.67L6.56 8l2.888 5.776a.5.5 0 1 1-.894.448l-3-6a.5.5 0 0 1 0-.448l3-6a.5.5 0 0 1 .67-.223z" />
+                            </svg>
+
+
+                        </div>
+                    </div>
+                    <div class="rwd-content-img">
+                        <img src="./img/243273810_316758926880901_591228233636215030_n.jpg" alt="">
+                        <img src="./img/243496346_316759080214219_7481221178971450493_n.jpg" alt="">
+                    </div>
+                    <div class="show-rwd-img">
+                        <div class="overlay"></div>
+                        <div class="img-show">
+                            <span>X</span>
+                            <img src="">
+                        </div>
+                    </div>
+                    <div class="close-img" id="close-id">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#565C4E"
+                            class="bi bi-arrow-90deg-up" viewBox="0 0 16 16">
+                            <path class="close-svg" fill-rule="evenodd"
+                                d="M4.854 1.146a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L4 2.707V12.5A2.5 2.5 0 0 0 6.5 15h8a.5.5 0 0 0 0-1h-8A1.5 1.5 0 0 1 5 12.5V2.707l3.146 3.147a.5.5 0 1 0 .708-.708l-4-4z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- 女人看風景圖 -->
+    <div class="female-bg">
+        <div class="female-bg-img
+        "></div>
+    </div>
+    <!-- 服務據點 -->
+    <div class="my-position">
+        <div class="container-myself">
+            <div class="left-content-position hideme">
+                <img src="./img/121403170_101512371738892_6070788510772535847_n.jpg" alt="">
+            </div>
+
+            <div class="right-content-title-position">
+                <div>
+                    <h1 class="h1title transformme">
+                        服務據點
+                    </h1>
+                </div>
+                <div>
+                    <h2 class="h2title transformme">
+                        內用。外送。路邊取貨
+                    </h2>
+                </div>
+            </div>
+            <div class="right-content-text-position">
+                <p>
+                    地址：新北市蘆洲區永安北路二段58巷6號
+                </p>
+                <p>
+                    營業時間：每日6：30 - 14：00
+                </p>
+                <p>
+                    每週二公休
+                </p>
+                <p>
+                    聯絡專線：<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-telephone" viewBox="0 0 16 16">
+                        <path
+                            d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                    </svg>
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <!-- 地圖 -->
+    <div class="google-map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.528779848765!2d121.48078887817395!3d25.083955730429505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a8d2357d1b65%3A0x1541e653eb1a72d8!2z5ZiJ6bue5pep5Y2I6aSQ!5e0!3m2!1szh-TW!2stw!4v1648437546776!5m2!1szh-TW!2stw"
+            width="1920" height="610" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!-- 結尾 -->
+    <footer>
+        <div class="footer-icon">
+            <a href="https://www.facebook.com/JiadianBrunch/"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                    class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path
+                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg></a>
+            <a href="https://www.instagram.com/jiadianbrunch/?fbclid=IwAR1oSsMqR1OHahijab9tZ-JRBxXMNq8ka1lBXHb7dgHIP1TJMlu9XVAuZFY"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                    class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path
+                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                </svg></a>
+        </div>
+        <div class="footer-text">
+            <p>
+                Copyright © 2022 ｜
+            </p>
+            <p>
+                嘉點早午餐 All Rights Reserved. 免責聲明 |
+            </p>
+            <p>
+                使用條款 網頁設計 │ 李承熹
+            </p>
+        </div>
+
+    </footer>
+    <div class="top-btn" id="top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+            <path
+                d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+        </svg>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+
+    <script>
+        var page = 0;
+        $('.left-arrow').click(moveRight)
+        $('.right-arrow').click(moveLeft)
+
+
+        function pageUpdate() {
+            $('.train').css('transition', '.5s').css('transform', `translateX(${page * -1000}px)`)
+        }
+
+        function pageUpdateWithoutTransition() {
+            $('.train').css('transition', 'none').css('transform', `translateX(${page * -1000}px)`)
+        }
+        function pageUpdateWithoutTransition2() {
+            $('.train').css('transition', 'none').css('transform', `translateX(${page * -1000}px)`)
+        }
+
+        function moveRight() {
+            console.log('page', page);
+            page++
+            pageUpdate();
+            if (page >= 2) {
+                $('.train').one('transitionend', function () {
+
+                    page = 0
+                    pageUpdateWithoutTransition();
+                })
+            }
+        }
+        function moveLeft() {
+            console.log('page', page);
+            page--
+            pageUpdate();
+            if (page <= -2) {
+                $('.train').one('transitionend', function () {
+                    console.log('hi');
+                    page = 0
+                    pageUpdateWithoutTransition2();
+                })
+            }
+        }
+
+
+
+        $(window).scroll(function () {
+
+            const scorllTop = $(window).scrollTop();
+            const widowHeight = $(window).height();
+            const bodyHeight = $('body').height();
+
+            $('.bar').css('height', `${scorllTop / (bodyHeight - widowHeight) * 100}%`)
+
+        })
+        $('.nav-bar').click(function () {
+            $('.nav-bar').toggleClass('close')
+            $('.nav-links').toggleClass('open')
+        })
+
+        $('#top').click(function () {
+            $('html,body').animate({
+                scrollTop: 0
+            }, 800)
+        })
+        $('.aboutus-btn').click(function () {
+            $('html,body').animate({
+                scrollTop: $('.content-aboutus').offset().top
+            }, 800)
+            $('.nav-bar').removeClass('close')
+            $('.nav-links').removeClass('open')
+        })
+        $('.food-btn').click(function () {
+            $('html,body').animate({
+                scrollTop: $('.content-food-1').offset().top
+            }, 800)
+            $('.nav-bar').removeClass('close')
+            $('.nav-links').removeClass('open')
+        })
+        $('.location-btn').click(function () {
+            $('html,body').animate({
+                scrollTop: $('.my-position').offset().top
+            }, 800)
+            $('.nav-bar').removeClass('close')
+            $('.nav-links').removeClass('open')
+        })
+
+        $('.open-img').click(function () {
+            $('.read-more').addClass('show')
+            $('.read-more').removeClass('noshow')
+            $('.open-svg').addClass('noshow')
+            $('.open-svg').removeClass('show')
+            $('.close-content-food').addClass('open-all')
+        })
+
+
+        $('#close-id').click(function () {
+            console.log(1);
+            $('.open-svg').removeClass('noshow')
+            $('.open-svg').addClass('show')
+            $('.read-more').addClass('noshow')
+            $('.read-more').removeClass('show')
+            $('.close-content-food').removeClass('open-all')
+
+        })
+
+        $(window).scroll(function () {
+            $('.hideme').each(function () {
+                var of_object = $(this).offset().top + $(this).outerHeight();
+                var of_window = $(window).scrollTop() + $(window).height() + 200;
+
+                if (of_window > of_object) {
+                    $(this).css({
+                        'opacity': '1'
+                    }, 500);
+                    $(this).css('transform', 'translateY(0px)')
+                } else {
+                    $(this).css({
+                        'opacity': '0'
+                    }, 500);
+                    $(this).css('transform', 'translateY(100px)')
+                }
+            })
+        })
+
+        $(window).scroll(function () {
+            $('.transformme').each(function () {
+                var of_object = $(this).offset().top + $(this).outerHeight();
+                var of_window = $(window).scrollTop() + $(window).height() + 0;
+                if (of_window > of_object) {
+                    $(this).css({
+                        'opacity': '1'
+                    }, 1000);
+                } else {
+
+                    $(this).css({
+                        'opacity': '0'
+                    }, 1000);
+                }
+            })
+        })
+
+
+        let lastScroll = 0;
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > lastScroll) {
+                $('nav').addClass('hide-nav')
+            } else {
+                $('nav').removeClass('hide-nav')
+
+            }
+            lastScroll = $(window).scrollTop();
+
+        });
+        $('.content-img-1').mouseenter(function () {
+            $('.content-img-1').css('transform',
+                'translate(10%,0%)')
+            $('.content-img-2').css('transform', 'translate(7%,0%)')
+            $('.content-img-3').css('transform',
+                'translate(6%,0%)')
+
+        })
+        $('.content-img-1').mouseleave(function () {
+            $('.content-img-1').css('transform',
+                'translate(0%,0%)')
+            $('.content-img-2').css('transform', 'translate(0%,0%)')
+            $('.content-img-3').css('transform',
+                'translate(0%,0%)')
+
+        })
+
+        $('.content-img-2').mouseenter(function () {
+            $('.content-img-2').css('transform',
+                'translate(-10%,0%)')
+            $('.content-img-1').css('transform',
+                'translate(-10%,0%)')
+            $('.content-img-3').css('transform',
+                'translate(-7%,0%)')
+        })
+        $('.content-img-2').mouseleave(function () {
+            $('.content-img-1').css('transform',
+                'translate(0%,0%)')
+            $('.content-img-2').css('transform', 'translate(0%,0%)')
+            $('.content-img-3').css('transform',
+                'translate(0%,0%)')
+        })
+
+        $('.content-img-3').mouseenter(function () {
+            $('.content-img-3').css('transform',
+                'translate(10%,10%)')
+            $('.content-img-2').css('transform',
+                'translate(12%,10%)')
+            $('.content-img-1').css('transform',
+                'translate(15%,8%)')
+        })
+        $('.content-img-3').mouseleave(function () {
+            $('.content-img-1').css('transform',
+                'translate(0%,0%)')
+            $('.content-img-2').css('transform', 'translate(0%,0%)')
+            $('.content-img-3').css('transform',
+                'translate(0%,0%)')
+        })
+
+        $('.content-img-2-2').mouseenter(function () {
+            $('.content-img-2-2').css('transform',
+                'translate(-10%,-10%)')
+            $('.content-img-2-3').css('transform',
+                'translate(10%,15%)')
+
+        })
+        $('.content-img-2-2').mouseleave(function () {
+            $('.content-img-2-2').css('transform',
+                'translate(0%,0%)')
+            $('.content-img-2-3').css('transform',
+                'translate(0%,0%)')
+        })
+        $('.content-img-2-3').mouseenter(function () {
+            $('.content-img-2-3').css('transform',
+                'translate(10%,10%)')
+            $('.content-img-2-2').css('transform',
+                'translate(-10%,-10%)')
+        })
+
+        $('.content-img-2-3').mouseleave(function () {
+            $('.content-img-2-3').css('transform',
+                'translate(0%,0%)')
+            $('.content-img-2-2').css('transform',
+                'translate(0%,0%)')
+        })
+
+        $('.content-img-3-2').mouseenter(function () {
+            $('.content-img-3-2').css('transform',
+                'translate(-10%,-10%)')
+        })
+        $('.content-img-3-2').mouseleave(function () {
+            $('.content-img-3-2').css('transform',
+                'translate(0%,0%)')
+        })
+        $('.content-img-3-3').mouseenter(function () {
+            $('.content-img-3-3').css('transform',
+                'translate(10%,10%)')
+        })
+        $('.content-img-3-3').mouseleave(function () {
+            $('.content-img-3-3').css('transform',
+                'translate(0%,0%)')
+        })
+
+        $(".rwd-content-img img").click(function () {
+            var $src = $(this).attr("src");
+            $(".show-rwd-img").fadeIn();
+            $(".img-show img").attr("src", $src);
+        });
+
+        $("span, .overlay").click(function () {
+            $(".show-rwd-img").fadeOut();
+        });
+
+
+
+    </script>
+</body>
+
+</html>
